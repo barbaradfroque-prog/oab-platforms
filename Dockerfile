@@ -14,7 +14,7 @@ RUN npm ci --only=production
 
 # Copiar codigo
 COPY 02_backend_api.js .
-COPY .env .
+
 
 # Criar diretorio de logs
 RUN mkdir -p logs
